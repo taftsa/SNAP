@@ -902,7 +902,6 @@ $(document).on('click', '#honors', function(){
 			
 			$('.canBeHonors').removeClass('honorsClass');
 			$('.canBeHonors .honors').remove();
-			$('.canBeHonors.recital .credits').html('1');
 			
 			$('.canBeHonors').fadeOut(150).fadeIn(150).fadeOut(150).fadeIn(150);
 			$('.nonHonors').fadeOut(150).fadeIn(150).fadeOut(150).fadeIn(150);
